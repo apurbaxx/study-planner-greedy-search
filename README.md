@@ -40,6 +40,17 @@ The scheduling algorithm:
 - Clear day-by-day schedule output
 - Explanation of how the schedule was created
 
+## Screenshots
+
+### Main Interface
+![Smart Study Planner UI](screenshots/Smart%20Study%20Planner%20UI.png)
+
+### Added Subjects View
+![Added Subjects](screenshots/Added%20Subjects.png)
+
+### Generated Schedule Output
+![Generated Schedule](screenshots/Generated%20Schedule.png)
+
 ## Files
 
 - `index.html` - Main webpage with the interface
@@ -54,3 +65,6 @@ If you add:
 
 History gets scheduled first because it has higher priority (harder to finish in the available time).
 
+## Getting Started
+
+Simply open `index.html` in any modern web browser to start using the planner.
