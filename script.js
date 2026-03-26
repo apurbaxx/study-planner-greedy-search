@@ -74,7 +74,7 @@ function generateSchedule() {
         scheduleOutput.innerHTML = '<p>Please add some subjects first!</p>';
         return;
     }
-m
+
     const sortedSubjects = [...subjects].sort((a, b) => b.priority - a.priority);
 
     console.log('Subjects sorted by priority:', sortedSubjects);
