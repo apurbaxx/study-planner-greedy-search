@@ -134,7 +134,7 @@ function createGreedySchedule(sortedSubjects) {
 
         // Check if we couldn't schedule everything within deadline
         if (remainingHours > 0) {
-            warnings.push(`⚠️ Cannot complete ${subject.name} within ${subject.deadline} days! ${remainingHours} hours remaining.`);
+            warnings.push(`Cannot complete ${subject.name} within ${subject.deadline} days! ${remainingHours} hours remaining.`);
         }
     }
 
@@ -154,7 +154,7 @@ function displaySchedule(result) {
         });
         html += '</div>';
     } else {
-        html += '<div class="success">✅ All subjects can be completed within their deadlines!</div>';
+        html += '<div class="success">All subjects can be completed within their deadlines!</div>';
     }
 
     // Display day-wise schedule
